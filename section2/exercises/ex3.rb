@@ -1,4 +1,4 @@
-puts "You enter a dark room with two doors.  Do you go through door #1 or door #2?"
+puts "You enter a dark room with two doors.  Do you go through door #1, #2, #3?"
 
 print "> "
 door = $stdin.gets.chomp
@@ -34,6 +34,27 @@ elsif door == "2"
     puts "The insanity rots your eyes into a pool of muck. Good job!"
   end
 
+elsif door == "3"
+  puts "You win a goat! Would you like to:"
+  puts "1. Accept the goat."
+  puts "2. Reject it"
+
+  print "> "
+  goat = $stdin.gets.chomp
+
+  if goat == "1"
+    puts "The IRS has assessed a value of the goat as $1,400, and your tax liabilty for these winnings is 40% of that value. Please submit a payment of $560.00 to the IRS within 30 days or face possible civil and/or criminal penalties."
+
+  elsif goat == "2"
+    puts "You have chosen wisely."
+  else
+    puts "You must choose."
+  end
+
 else
   puts "You stumble around and fall on a knife and die. Good job!"
+
 end
+
+#study drills
+#See newgame.rb in section2/exercises

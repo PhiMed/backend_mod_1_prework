@@ -29,3 +29,12 @@ puts animals[3]
 puts animals[4]
 puts animals[5]
 puts animals[6]
+
+#Study Drills
+#1. "Year 0" was sort of an arbitrary starting point like the 0 spot in an array
+#2.
+states = ['AZ', 'AK', 'NY', 'CO', 'MA']
+puts "states [0]"
+puts states [0]
+puts "states [4]"
+puts states [4]

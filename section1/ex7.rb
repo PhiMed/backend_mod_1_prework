@@ -11,3 +11,13 @@ print "What's your name?"
 name = gets.chomp
 
 puts "Hello #{name}, nice to meet you."
+
+#study drills
+puts "____________"
+puts "Enter password:"
+password = gets.chomp
+puts "Password entered is :#{password}"
+puts "_________"
+puts "How shaggy is your dog?"
+shagginess = gets.chomp
+puts "#{shagginess}? I didn't realize he was that shaggy."

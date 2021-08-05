@@ -1,6 +1,6 @@
 def add(a, b)
   puts "ADDING #{a} + #{b}"
-  return a + b
+  a + b
 end
 
 def subtract(a, b)
@@ -32,8 +32,3 @@ puts "Here is a puzzle."
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 puts "That becomes: #{what}. Can you do it by hand?"
-
-# Study Drills
-
-what = (74-((50/2)*180))+35
-puts what
