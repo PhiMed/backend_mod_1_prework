@@ -129,7 +129,15 @@ emails = [
     'is_spam' => "false",
     'timestamp' => "072721@0604hrsUTC"
   },
+  {'subject' => "Meeting Monday?",
+  'sender' => "Saed Johnson",
+  'sender_address' => "sjohnson@3dlogistics.nz",
+  'is_spam' => "false",
+  'timestamp' => "072721@0645hrsUTC"
+},
 ]
 
 puts emails
-puts emails[0]
+
+#I'm not sure I understood the instructions this last exercise; I made an array with three 'emails' which were themselves
+#hashes of the email metadata.

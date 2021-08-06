@@ -14,12 +14,12 @@ class Person
 
   def info
       "#{name} is drinking from the fountain of life and living his best life at #{age} years old."
-    end
+  end
 
   def age_ten_years_up
     self.age = (age + 10)
     puts "And in ten years he'll be #{age}."
-    end
+  end
 
 end
 

@@ -4,7 +4,7 @@
 # `ruby section1/exercises/strings.rb`
 
 # Example: Write code that prints your name to the terminal:
-p "Alan Turing"
+puts "Alan Turing"
 
 # Write code that prints `Welcome to Turing!` to the terminal:
 puts "Welcome to Turing!"

@@ -35,6 +35,7 @@ elsif for a condition that comes after the first else but is not dependent of it
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
+```
 age = 5
 height = 37
 parent_insists_anyway = true
@@ -46,6 +47,7 @@ elsif parent_insists_anyway == true
 else
   puts "You cannot go down the slide"
 end
+```
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
@@ -60,19 +62,23 @@ Methods allow the programmer to create a mechanism to repeat a task on a given p
 
 1. Create a method named `hello` that will print `"Sam I am"`.
 
+```
 def hello(phrase='Sam I am')
   puts phrase + '.'
 end
 
 hello
+```
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
+```
 def hello_someone(name)
   puts name + ' I am'
 end
 
 hello_someone("Philip")
+```
 
 1. How would you call or execute the method that you created above?
 

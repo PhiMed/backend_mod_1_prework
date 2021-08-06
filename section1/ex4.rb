@@ -13,7 +13,7 @@ cars_driven = drivers
 #carpool_capacity is the reurn of cars_driven (see above) times space_in_a_car
 carpool_capacity = cars_driven * space_in_a_car
 #average_passengers_per_car is the return of the passengers divided by cars_driven(which is itself the drivers value)
-average_passengers_per_car = passengers/cars_driven
+average_passengers_per_car = passengers / cars_driven
 
 
 puts "There are #{cars} cars available."

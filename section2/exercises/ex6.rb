@@ -35,6 +35,30 @@ puts "And we can combine the two, variables and math:"
 cheese_and_crackers(x + 100, y + 1000)
 
 #Study Drills
+
+def find_volume_of_cube(length, width, height)
+  puts "The volume is #{length * width * height}"
+end
+
+find_volume_of_cube(12, 45, 25)
+
+##############################
+
+def find_volume_of_cube (length, width, height)
+  puts "The volume is #{length}*#{width}*#{height}"
+  return length * width * height
+end
+
+length = 12
+width = 45
+height = 25
+
+volume = find_volume_of_cube(length, width, height)
+
+puts "#{volume}"
+
+##############################
+
 def find_volume_of_cube (length, width, height, lwh)
   puts "The volume is #{length}*#{width}*#{height}= #{lwh}"
 end
@@ -45,7 +69,7 @@ height = 25
 lwh = length * width * height
 
 find_volume_of_cube(length, width, height, lwh)
-
+#Eh, I don't like that as much
 ##############################
 
 def find_volume_of_cube (length, width, height, lwh)
@@ -73,19 +97,8 @@ lwh = length * width * height
 
 find_volume_of_cube(length, width, height, lwh)
 
-############################## I think this is the best one (below)
+##############################
 
-def find_volume_of_cube (length, width, height)
-  puts "The volume is #{length}*#{width}*#{height}"
-  return length * width * height
-end
 
-length = 12
-width = 45
-height = 25
 
-volume = find_volume_of_cube(length, width, height)
-
-puts "#{volume}"
-
-#I can't think of 6 more ways to run this like it says to but I feel pretty good about understanding how this works
+#I can't think of 5 more ways to run this like it says to but I feel pretty good about understanding how this works

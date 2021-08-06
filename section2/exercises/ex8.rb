@@ -1,10 +1,5 @@
-def find_volume_of_cube (length, width, height, lwh)
-  puts "The volume is #{length}*#{width}*#{height}= #{lwh}"
+def find_volume_of_cube(length, width, height)
+  puts "The volume is #{length * width * height}"
 end
 
-length = 12
-width = 45
-height = 25
-lwh = length * width * height
-
-find_volume_of_cube(length, width, height, lwh)
+find_volume_of_cube(12, 45, 25)

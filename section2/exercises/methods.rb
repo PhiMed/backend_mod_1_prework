@@ -34,7 +34,7 @@ autosum(-3,5)
 # Then call your method three times with different arguments passed in.
 
 def concatenation (blow_dryer_setting, male_first_name)
-  puts "#{blow_dryer_setting} #{male_first_name}"
+  puts "but my friends call me #{blow_dryer_setting} #{male_first_name}"
 end
 
 concatenation("Max", "Farris")

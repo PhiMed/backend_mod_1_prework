@@ -4,7 +4,7 @@
 # `ruby section1/exercises/numbers.rb`
 
 # Example: Write code that prints the result of the sum of 2 and 2:
-p 2 + 2
+puts 2 + 2
 
 # Write code that prints the result of 7 subtracted from 83:
 puts 83-7

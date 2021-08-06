@@ -22,8 +22,9 @@ pet_store = {kibble: 23, bits: 507, fish_food: 48}
 
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
 
+```
 $puts states['IA']
-
+```
 1. With the same hash above, how would we get all the keys?  How about all the values?
 
 p states.values

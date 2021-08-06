@@ -38,5 +38,9 @@ gets.chomp
 1. Name and describe two common string methods:
 
 Some methods include suffixes added to the end of the string, for instance:
-$puts variable.upcase would output whatever string is assigned to "variable" in uppercase
+```
+$puts variable.upcase
+```
+would output whatever string is assigned to "variable" in uppercase
+
 Another example would be ".chomp" which removes the newline character from a string, so that it does not go to a new line automatically when executed.

@@ -20,5 +20,5 @@ end
 
 hamilton = Dog.new("Border Collie", "male", true, "Hamilton")
 puts hamilton.info
-puts "%%%%%%%%%%%%%%%%"
+puts "%%%%%%%%%%%%%%%%" #break
 puts hamilton.adoption_message
